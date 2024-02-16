@@ -20,6 +20,18 @@ const checkGuess =(guess)=>{
 
 }
 
-const displayMessage = (guess)=>{
+const displayGuess = (guess)=>{
 
+}
+
+const displayMessage = (message)=>{
+
+}
+
+const newGame =()=>{
+
+}
+
+const endGame =()=>{
+    
 }
