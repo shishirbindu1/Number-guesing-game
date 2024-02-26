@@ -12,6 +12,15 @@ let prevGuess =[]
 let numGuess =1
 let playGame = true 
 
+if(playGame){
+    submit.addEventListener('click', (e)=>{
+        e.preventDefault()
+        const guess = parseInt(userInput.value)
+        console.log(guess)
+        validGuess(guess)
+    })
+}
+
 const validGuess =(guess)=>{
 
 }
