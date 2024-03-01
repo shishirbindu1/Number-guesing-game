@@ -22,7 +22,7 @@ if(playGame){
 }
 
 const validGuess =(guess)=>{
-
+    
 }
 
 const checkGuess =(guess)=>{
@@ -43,4 +43,8 @@ const newGame =()=>{
 
 const endGame =()=>{
     
+}
+
+const nepali = ()=>{
+    console.log("this is just for practice")
 }
